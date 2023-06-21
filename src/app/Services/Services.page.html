@@ -1,0 +1,22 @@
+<ion-content [fullscreen]="true">
+  <div class="servDesc">
+    <p class="productTitle">Products</p>
+    <ion-img class="prodImg"
+      src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2284.jpg?size=626&ext=jpg&ga=GA1.1.700027230.1685990794&semt=ais"></ion-img>
+    <p class="productDesc">We provide a wide range of products to our customers. We are a one stop shop for all your
+      needs. We provide products like</p>
+  </div>
+  <div class="services">
+    <p class="productTitle">Let's see what products we made...</p>
+    <div class="products">
+      <ion-card class="prodCard" *ngFor="let product of products">
+        <ion-card-content class="img">
+          <ion-img src="{{product.img}}"></ion-img>
+        </ion-card-content>
+        <ion-card-header>
+          <ion-card-title class="productTitle">{{product.name}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

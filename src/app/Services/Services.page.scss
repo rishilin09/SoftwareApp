@@ -1,0 +1,31 @@
+* {
+    color: #333;
+}
+
+ion-content {
+    --ion-background-color: #fff;
+}
+
+.productTitle {
+    font-size: 3em;
+    text-align: center;
+    font-family: Phil-BI;
+    margin: 1em;
+}
+
+.prodImg {
+    margin: 0.5em;
+    border: 0.4em inset #333;
+}
+
+.productDesc {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: Jose;
+    font-weight: 200;
+    margin: 1em;
+}
+
+.prodCard {
+    --background: #fff;
+}

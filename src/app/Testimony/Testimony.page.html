@@ -1,0 +1,16 @@
+<ion-content [fullscreen]="true">
+  <ion-title class="title">Testimony</ion-title>
+  <ion-img src="https://t4.ftcdn.net/jpg/03/02/05/35/240_F_302053545_LVCWOUMfknTEMEuZjfLZXZcrpCUAcTEo.jpg"></ion-img>
+  <div class="testimony">
+    <p class="testimonyTitle">Here are some of our testimonies...</p>
+    <ion-card class="testimonyCard" *ngFor="let testimony of testimonies">
+      <ion-title class="bracesStart">"</ion-title>
+      <p class="testimonyDesc">
+        {{testimony.testimony}}
+      </p>
+      <ion-title class="bracesEnd">"</ion-title>
+      <ion-title class="designation">{{testimony.designation}}</ion-title>
+      <p class="company">{{testimony.company}}</p>
+    </ion-card>
+  </div>
+</ion-content>

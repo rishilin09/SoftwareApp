@@ -24,3 +24,43 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: Jose;
+    src: url("./assets/fonts/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Jose-B;
+    src: url("./assets/fonts/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: Jose-I;
+    src: url("./assets/fonts/JosefinSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: Jose-M;
+    src: url("./assets/fonts/JosefinSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: Phil-B;
+    src: url("./assets/fonts/Philosopher-Bold.ttf");
+}
+
+@font-face {
+    font-family: Phil-BI;
+    src: url("./assets/fonts/Philosopher-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Phil-B;
+    src: url("./assets/fonts/Philosopher-Italic.ttf");
+}
+
+@font-face {
+    font-family: Phil;
+    src: url("./assets/fonts/Philosopher-Regular.ttf");
+}

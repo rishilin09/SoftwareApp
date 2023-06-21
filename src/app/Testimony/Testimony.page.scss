@@ -1,0 +1,61 @@
+* {
+    color: #333;
+}
+
+ion-content {
+    --ion-background-color: #fff;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    font-family: Phil-BI;
+    margin: 1em;
+}
+
+.bracesStart,
+.bracesEnd {
+    font-size: 4em;
+    color: rgb(13, 13, 144);
+}
+
+.bracesStart {
+    margin-bottom: -1em;
+    text-align: left;
+    margin-left: -0.3em;
+}
+
+.bracesEnd {
+    margin-top: -0.4em;
+    text-align: right;
+}
+
+.testimonyTitle {
+    font-size: 2em;
+    text-align: left;
+    font-family: Jose;
+    margin: 1em;
+}
+
+.testimonyCard {
+    --background: #fff;
+    padding: 2em;
+}
+
+.testimonyDesc {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Phil-BI;
+    margin: 1em;
+}
+
+.designation,
+.company {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Jose;
+}
+
+.company {
+    font-weight: 600;
+}

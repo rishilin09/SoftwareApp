@@ -9,17 +9,21 @@ export const routes: Routes = [
       {
         path: 'tab1',
         loadComponent: () =>
-          import('../tab1/tab1.page').then((m) => m.Tab1Page),
+          import('../Profile/Profile.page').then((m) => m.ProfilePage),
       },
       {
         path: 'tab2',
         loadComponent: () =>
-          import('../tab2/tab2.page').then((m) => m.Tab2Page),
+          import('../Services/Services.page').then((m) => m.ServicesPage),
       },
       {
         path: 'tab3',
         loadComponent: () =>
-          import('../tab3/tab3.page').then((m) => m.Tab3Page),
+          import('../Testimony/Testimony.page').then((m) => m.Tab3Page),
+      },
+      {
+        path: 'tab4',
+        loadComponent: () => import('../Contact/Contact.page').then( m => m.ContactPage)
       },
       {
         path: '',
@@ -27,10 +31,5 @@ export const routes: Routes = [
         pathMatch: 'full',
       },
     ],
-  },
-  {
-    path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full',
   },
 ];
